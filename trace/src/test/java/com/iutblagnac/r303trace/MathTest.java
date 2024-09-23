@@ -32,4 +32,19 @@ public class MathTest
         // Then
         assertEquals(3, result);
     }
+
+    /**
+     * Test division
+     * <br>
+     * Given-When-Then
+     */
+    public void testDivision() {
+        // Given
+        int a = 6;
+        int b = 2;
+        // When
+        int result = Math.division(a, b);
+        // Then
+        assertEquals(3, result);
+    }
 }
