@@ -22,4 +22,20 @@ public class Math {
     public static int division(int a, int b) {
         return a / b;
     }
+
+    /**
+     * Count the number of multiples
+     *
+     * @param a The integer
+     * @return The number of multiples
+     */
+    public static int countMultiples(int a) {
+        int count = 0;
+        for (int i = 1; i <= a; i++) {
+            if (a % i == 0) {
+                count++;
+            }
+        }
+        return count;
+    }
 }

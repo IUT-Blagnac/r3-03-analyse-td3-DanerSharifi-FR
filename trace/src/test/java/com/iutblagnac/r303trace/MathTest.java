@@ -47,4 +47,18 @@ public class MathTest
         // Then
         assertEquals(3, result);
     }
+
+    /**
+     * Test countMultiples
+     * <br>
+     * Given-When-Then
+     */
+    public void testCountMultiples() {
+        // Given
+        int a = 6;
+        // When
+        int result = Math.countMultiples(a);
+        // Then
+        assertEquals(4, result);
+    }
 }
