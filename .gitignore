@@ -1,2 +1,61 @@
-.vscode
-target
+### IntelliJ IDEA ###
+out/
+.idea/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+### IntelliJ IDEA ###
+trace/.idea
+trace/out/
+!**/trace/src/main/**/out/
+!**/trace/src/test/**/out/
+
+### Eclipse ###
+trace/.apt_generated
+trace/.classpath
+trace/.factorypath
+trace/.project
+trace/.settings
+trace/.springBeans
+trace/.sts4-cache
+trace/bin/
+!**/trace/src/main/**/bin/
+!**/trace/src/test/**/bin/
+
+### NetBeans ###
+/trace/nbproject/private/
+/trace/nbbuild/
+/trace/dist/
+/trace/nbdist/
+/trace/.nb-gradle/
+
+### VS Code ###
+trace/.vscode/
+
+### Mac OS ###
+trace/.DS_Store
